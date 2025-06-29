@@ -88,11 +88,11 @@ class _AlarmHomeState extends State<AlarmHome> {
     try {
       if (kIsWeb) {
         final audio = html.AudioElement()
-          ..src = "assets/audio.mp3"
+          ..src = "assets/assets/audio.mp3"
           ..autoplay = true;
         html.document.body?.append(audio);
       } else {
-        await player.play(AssetSource("/assets/assets/audio.mp3"));
+        await player.play(AssetSource("assets/audio.mp3"));
       }
     } catch (e) {
       debugPrint("❌ 소리 재생 실패: $e");

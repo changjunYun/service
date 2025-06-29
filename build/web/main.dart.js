@@ -35971,7 +35971,7 @@ this.f=new A.e8(A.aFu(),s,A.m(s).j("e8<c4.T,kB>")).iY(new A.aao(this))},
 Ab(){var s=0,r=A.O(t.H),q,p,o,n,m
 var $async$Ab=A.K(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:try{o=A.avR(null)
-o.src="assets/audio.mp3"
+o.src="assets/assets/audio.mp3"
 o.autoplay=!0
 q=o
 n=document.body
