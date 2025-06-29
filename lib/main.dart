@@ -5,7 +5,6 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'dart:async';
 import 'firebase_options.dart';
-// ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
 
 void main() async {
