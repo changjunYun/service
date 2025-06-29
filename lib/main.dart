@@ -88,7 +88,7 @@ class _AlarmHomeState extends State<AlarmHome> {
     try {
       if (kIsWeb) {
         final audio = html.AudioElement()
-          ..src = "assets/assets/audio.mp3"
+          ..src = "assets/audio.mp3"
           ..autoplay = true;
         html.document.body?.append(audio);
       } else {
